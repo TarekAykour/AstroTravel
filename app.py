@@ -108,7 +108,7 @@ def about():
     # access word doc where you got the information stored
     return render_template("About.html")
 
-
+# solar system
 @app.route('/solarsystem',methods=["GET"])
 def solar_system():
     solarplanets = []
